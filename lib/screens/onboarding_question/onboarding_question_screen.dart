@@ -13,14 +13,14 @@ import 'package:path_provider/path_provider.dart'; // For file path
 import 'package:permission_handler/permission_handler.dart'; // For permissions
 import 'package:record/record.dart'; // For audio recording
 import 'package:video_player/video_player.dart'; // For video playback
-class HostReasonScreen extends StatefulWidget {
+class Onboarding_questions_screen extends StatefulWidget {
   final int step;
-  const HostReasonScreen({super.key, required this.step});
+  const Onboarding_questions_screen({super.key, required this.step});
 
   @override
-  State<HostReasonScreen> createState() => _HostReasonScreenState();
+  State<Onboarding_questions_screen> createState() => _HostReasonScreenState();
 }
-class _HostReasonScreenState extends State<HostReasonScreen> with TickerProviderStateMixin {
+class _HostReasonScreenState extends State<Onboarding_questions_screen> with TickerProviderStateMixin {
   final TextEditingController _controller = TextEditingController();
   final Random _random = Random(); // For simulated waveform
   late AudioRecorder _audioRecorder;
