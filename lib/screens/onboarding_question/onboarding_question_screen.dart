@@ -18,9 +18,9 @@ class Onboarding_questions_screen extends StatefulWidget {
   const Onboarding_questions_screen({super.key, required this.step});
 
   @override
-  State<Onboarding_questions_screen> createState() => _HostReasonScreenState();
+  State<Onboarding_questions_screen> createState() => _Onboarding_questions_screen();
 }
-class _HostReasonScreenState extends State<Onboarding_questions_screen> with TickerProviderStateMixin {
+class _Onboarding_questions_screen extends State<Onboarding_questions_screen> with TickerProviderStateMixin {
   final TextEditingController _controller = TextEditingController();
   final Random _random = Random(); // For simulated waveform
   late AudioRecorder _audioRecorder;
